@@ -1,0 +1,10 @@
+/* Access-Control-Allow-Origin: 'http://www.fontsaddict.com/fontface/magic-school-two.ttf' */
+
+@font-face {
+    font-family: 'Magic School Two';
+    src: url('../assets/MagicSchoolTwo.ttf');
+  }
+
+body {
+    font-family: 'Magic School Two';
+}
