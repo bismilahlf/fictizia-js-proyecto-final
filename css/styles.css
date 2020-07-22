@@ -56,9 +56,21 @@ body {
 }
 
 .gryffindor {
-    background-color:gold;
+    background-color:rgb(228, 22, 22);
 }
 
 .slytherin {
-    background-color: rgb(39, 182, 87);
+    background-color: rgb(26, 131, 70);
+}
+
+.hufflepuff {
+    background-color:gold;
+}
+
+.ravenclaw {
+    background-color:rgb(28, 49, 231);
+}
+
+.default {
+    background-color: white;
 }
