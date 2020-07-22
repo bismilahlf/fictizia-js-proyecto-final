@@ -1,7 +1,6 @@
-const myHouse = document.querySelector('.my-house');
+const myHouse = document.querySelector('.my-house-result');
 const sortingBtn = document.querySelector('.sorting-btn');
 const mainContainer = document.querySelector('.container');
-
 const request = 'https://www.potterapi.com/v1/sortinghat';
 
 function handleSortingButton() {
@@ -9,7 +8,6 @@ function handleSortingButton() {
     .then(res => res.json())
     .then(data => {
         myHouse.innerText = data;
-        console.log(data)
         switch(data) {
             case 'Gryffindor':
                 mainContainer.classList.add('gryffindor');

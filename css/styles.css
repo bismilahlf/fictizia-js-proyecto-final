@@ -27,21 +27,26 @@ body {
     width: 50%;
     height: 50%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
-.main-title, .my-house {
+.main-title, .my-house-result {
     font-family: 'Magic School Two';
 }
 
 .main-title {
     color: white;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 400;
     display: block;
 }
 
-.btn-title {
-    font-family: 'IM Fell English SC', serif;
+p {
+    font-size: 20px;
 }
 
 .sorting-btn {
@@ -49,18 +54,25 @@ body {
     color: white;
     border: none;
     padding: 10px;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 24px;
 }
 
-.my-house {
-    font-size: 40px;
+.my-house-container {
+    margin-top: 20px;
+}
+
+.my-house-result {
+    font-size: 60px;
+    margin: 0;
 }
 
 .gryffindor {
-    background-color:rgb(228, 22, 22);
+    background-color:rgb(201, 43, 32);
 }
 
 .slytherin {
-    background-color: rgb(26, 131, 70);
+    background-color: rgb(25, 146, 89);
 }
 
 .hufflepuff {
@@ -68,7 +80,7 @@ body {
 }
 
 .ravenclaw {
-    background-color:rgb(28, 49, 231);
+    background-color:rgb(43, 92, 228);
 }
 
 .default {
