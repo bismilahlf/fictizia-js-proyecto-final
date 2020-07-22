@@ -24,6 +24,7 @@ body {
 
 .container {
     background-color: white;
+    border: 10px solid black;
     width: 50%;
     height: 50%;
     text-align: center;
@@ -56,6 +57,7 @@ p {
     padding: 10px;
     font-family: 'IM Fell English SC', serif;
     font-size: 24px;
+    border-radius: 5px;
 }
 
 .my-house-container {
